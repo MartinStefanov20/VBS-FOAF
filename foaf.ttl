@@ -1,0 +1,29 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Martin Stefanov</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Martin</foaf:givenname>
+<foaf:family_name>Stefanov</foaf:family_name>
+<foaf:nick>Maci</foaf:nick>
+<foaf:mbox_sha1sum>753718c28b00e1d11f50685bdd163b643874c1a9</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="https://www.linkedin.com/in/martin-stefanov2000/"/>
+<foaf:depiction rdf:resource="https://media.licdn.com/dms/image/C4E03AQFlDuD0PG-4Wg/profile-displayphoto-shrink_400_400/0/1618239791587?e=1677110400&v=beta&t=OL9H9HX_xmazNyX9Tmh9wywYE7chZ3vE50uZ7via4vU"/>
+<foaf:phone rdf:resource="tel:075273651"/>
+<foaf:workplaceHomepage rdf:resource="https://www.netcetera.com/home.html"/>
+<foaf:workInfoHomepage rdf:resource="Software Engineer"/>
+<foaf:schoolHomepage rdf:resource="https://finki.ukim.mk/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Milan Tasevski</foaf:name>
+<foaf:mbox_sha1sum>da9af8ebbd18875792650f84ffc55d991d51fe32</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
