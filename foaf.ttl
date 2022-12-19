@@ -1,36 +1,36 @@
-<rdf:RDF
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-      xmlns:admin="http://webns.net/mvcb/"
-      xml:base="https://raw.githubusercontent.com/MartinStefanov20/VBS-FOAF/main/foaf.ttl">
-<foaf:PersonalProfileDocument rdf:about="">
-  <foaf:maker rdf:resource="#me"/>
-  <foaf:primaryTopic rdf:resource="#me"/>
-  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
-  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
-</foaf:PersonalProfileDocument>
-<foaf:Person rdf:ID="me">
-<foaf:name>Martin Stefanov</foaf:name>
-<foaf:title>Mr</foaf:title>
-<foaf:givenname>Martin</foaf:givenname>
-<foaf:family_name>Stefanov</foaf:family_name>
-<foaf:nick>Maci</foaf:nick>
-<foaf:mbox_sha1sum>86ef81f5e403cb024ab8111b0e75d871cb4f40f3</foaf:mbox_sha1sum>
-<foaf:homepage rdf:resource="https://www.linkedin.com/in/martin-stefanov2000/"/>
-<foaf:depiction rdf:resource="https://media.licdn.com/dms/image/C4E03AQFlDuD0PG-4Wg/profile-displayphoto-shrink_400_400/0/1618239791587?e=1677110400&v=beta&t=OL9H9HX_xmazNyX9Tmh9wywYE7chZ3vE50uZ7via4vU"/>
-<foaf:phone rdf:resource="tel:075273651"/>
-<foaf:workplaceHomepage rdf:resource="https://www.netcetera.com/home.html"/>
-<foaf:workInfoHomepage rdf:resource="Software Engineer"/>
-<foaf:schoolHomepage rdf:resource="https://finki.ukim.mk/"/>
-<foaf:knows>
-<foaf:Person>
-<foaf:name>Emilijan</foaf:name>
-<foaf:mbox_sha1sum>340295c3802ab175cbd1e09325d4c1d667b464d4</foaf:mbox_sha1sum>
-<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/bratuchedot/foaf/master/foaf.ttl"/></foaf:Person></foaf:knows>
-<foaf:knows>
-<foaf:Person>
-<foaf:name>Martin</foaf:name>
-<foaf:mbox_sha1sum>11a498a22b687837b5686f52c6b72f3801ffb229</foaf:mbox_sha1sum>
-<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl"/></foaf:Person></foaf:knows></foaf:Person>
-</rdf:RDF>
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/MartinStefanov20/VBS-FOAF/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/MartinStefanov20/VBS-FOAF/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/MartinStefanov20/VBS-FOAF/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/MartinStefanov20/VBS-FOAF/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Martin Stefanov" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Martin" ;
+  foaf:family_name "Stefanov" ;
+  foaf:nick "Maci" ;
+  foaf:mbox_sha1sum "86ef81f5e403cb024ab8111b0e75d871cb4f40f3" ;
+  foaf:homepage <https://www.linkedin.com/in/martin-stefanov2000/> ;
+  foaf:depiction <https://raw.githubusercontent.com/MartinStefanov20/VBS-FOAF/main/foaf.ttl> ;
+  foaf:phone <tel:075273651> ;
+  foaf:workplaceHomepage <https://www.netcetera.com/home.html> ;
+  foaf:workInfoHomepage <https://raw.githubusercontent.com/MartinStefanov20/VBS-FOAF/main/Software Engineer> ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Emilijan" ;
+    foaf:mbox_sha1sum "340295c3802ab175cbd1e09325d4c1d667b464d4" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/bratuchedot/foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Martin" ;
+    foaf:mbox_sha1sum "11a498a22b687837b5686f52c6b72f3801ffb229" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl>
+  ] .
